@@ -2,6 +2,7 @@
   "name": "wsd",
   "version": "1.0.0",
   "description": "WSD Status",
+  "repository": "https://gitlab.com/MarcTimperley/wsdStatus",
   "author": "Marc Timperley",
   "license": "MIT",
   "scripts": {
@@ -20,7 +21,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "got": "^11.1.4",
     "helmet": "^3.22.0"
   }
 }

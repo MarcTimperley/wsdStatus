@@ -28,8 +28,7 @@ const getAuthToken = (params) => {
     .send(params)
     .set('accept', 'json')
     .then((res) => {
-      console.log('got token response')
-      console.log(res.body)
+      console.log('  got token response')
       if (res.body.access_token) getJobId(res.body.access_token)
     })
     .catch((err) => {
@@ -46,8 +45,7 @@ const getJobId = (token) => {
     .set('Authorization', `Bearer ${token}`)
     .set('accept', 'json')
     .then((res) => {
-      console.log('got jobId response')
-      console.log(res.body)
+      console.log('  got jobId response')
       getReport(token, res.body.job_id)
     })
     .catch((err) => {
