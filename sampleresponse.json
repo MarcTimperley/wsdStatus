@@ -1,0 +1,4320 @@
+{
+  "job_id": "5ec7dc8e2342623904b0ffe9",
+  "status": 200,
+  "requested_at": "2020-05-22T14:07:10.204Z",
+  "requested_by": "23b1f001-f1fb-4a22-8933-bb77b3265a71",
+  "total_alerts": 21,
+  "started_at": "2020-05-22T14:07:16.514Z",
+  "completed_at": "2020-05-22T14:07:16.514Z",
+  "service_reports": [{
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.338Z",
+    "completed_at": "2020-05-22T14:07:10.338Z",
+    "host": {
+      "id": 3,
+      "name": "Auth Manager Redirect",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-auth-manager.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8024,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "auth-manager.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.339Z",
+    "completed_at": "2020-05-22T14:07:10.339Z",
+    "host": {
+      "id": 134,
+      "name": "Core Platform Demo",
+      "downstream_protocol": "https",
+      "downstream_host": "core-demo.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.27",
+      "upstream_port": 8021,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "core-demo.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 1007,
+      "name": "CUSIP API (DEV)",
+      "downstream_protocol": "http",
+      "downstream_host": "dev-cusip-api.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.13",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "dev-cusip-api.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 10010,
+      "name": "CUSIP API (QA)",
+      "downstream_protocol": "http",
+      "downstream_host": "qa-cusip-api.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.15",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qa-cusip-api.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 10019,
+      "name": "CUSIP API (UAT)",
+      "downstream_protocol": "http",
+      "downstream_host": "uat-cusip-api.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.17",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "cusip-api.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 1008,
+      "name": "CUSIP APP (DEV)",
+      "downstream_protocol": "http",
+      "downstream_host": "dev-cusip-app.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.14",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "dev-cusip-app.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 1009,
+      "name": "CUSIP APP (QA)",
+      "downstream_protocol": "https",
+      "downstream_host": "qa-cusip-app.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.16",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qa-cusip-app.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 10020,
+      "name": "CUSIP APP (UAT)",
+      "downstream_protocol": "http",
+      "downstream_host": "uat-cusip-app.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.18",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "cusip-app.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 135,
+      "name": "Dev: Demo SAML Idp",
+      "downstream_protocol": "https",
+      "downstream_host": "178.128.38.88",
+      "downstream_port": 9031,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 9031,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "demo-saml-idp.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 100,
+      "name": "Dev: Local Identity Service",
+      "downstream_protocol": "http",
+      "downstream_host": "identity.localhost",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8005,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "root.identity.localhost",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 88,
+      "name": "Disabled Upstream Test",
+      "downstream_protocol": "https",
+      "downstream_host": "upstream2.localhost",
+      "downstream_port": 8443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8081,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": false,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "root.upstream2.localhost",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.341Z",
+    "host": {
+      "id": 85,
+      "name": "Fincap Deal Tracker",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-deal-tracker.fincaplaw.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6039,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "deal-tracker.fincaplaw.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.341Z",
+    "completed_at": "2020-05-22T14:07:10.342Z",
+    "host": {
+      "id": 17,
+      "name": "Fincap Law Documentation",
+      "downstream_protocol": "https",
+      "downstream_host": "kkr.fincaplaw.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6006,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "kkr.fincaplaw.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.342Z",
+    "completed_at": "2020-05-22T14:07:10.342Z",
+    "host": {
+      "id": 89,
+      "name": "Fincap Law Website",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-www.fincaplaw.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6044,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "www.fincaplaw.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.343Z",
+    "completed_at": "2020-05-22T14:07:10.343Z",
+    "host": {
+      "id": 123,
+      "name": "Hub Microsites - ABC",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-abc.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8019,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-abc.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.343Z",
+    "completed_at": "2020-05-22T14:07:10.343Z",
+    "host": {
+      "id": 95,
+      "name": "Identity App Docauto Testing",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-docauto-testing.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6048,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "docauto-testing.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.343Z",
+    "completed_at": "2020-05-22T14:07:10.343Z",
+    "host": {
+      "id": 4,
+      "name": "Identity Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-auth.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 8005,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "auth.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.344Z",
+    "completed_at": "2020-05-22T14:07:10.344Z",
+    "host": {
+      "id": 129,
+      "name": "Identity User Manager",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-user-manager.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 3006,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 1,
+        "service_key": "user-manager.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.344Z",
+    "completed_at": "2020-05-22T14:07:10.345Z",
+    "host": {
+      "id": 128,
+      "name": "Identity User Profile",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-user-profile.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8022,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "user-profile.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.345Z",
+    "completed_at": "2020-05-22T14:07:10.345Z",
+    "host": {
+      "id": 137,
+      "name": "Jira Service Desk - Firelex",
+      "downstream_protocol": "https",
+      "downstream_host": "servicedesk.firelex.com",
+      "downstream_port": 443,
+      "upstream_protocol": "https",
+      "upstream_host": "wallstreetdocs.atlassian.net/servicedesk/customer/portal/13",
+      "upstream_port": 0,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "servicedesk.firelex.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.345Z",
+    "completed_at": "2020-05-22T14:07:10.345Z",
+    "host": {
+      "id": 138,
+      "name": "Jira Service Desk - Scissero",
+      "downstream_protocol": "https",
+      "downstream_host": "servicedesk.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "https",
+      "upstream_host": "wallstreetdocs.atlassian.net/servicedesk/customer/portal/12",
+      "upstream_port": 0,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "servicedesk.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.345Z",
+    "completed_at": "2020-05-22T14:07:10.345Z",
+    "host": {
+      "id": 126,
+      "name": "Legacy Dashboard App",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-apps.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "https",
+      "upstream_host": "staging-platform.wallstreetdocs.com/#/",
+      "upstream_port": 0,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "apps.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.347Z",
+    "completed_at": "2020-05-22T14:07:10.347Z",
+    "host": {
+      "id": 13,
+      "name": "Mathias RegX Demo Site",
+      "downstream_protocol": "https",
+      "downstream_host": "demo.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6035,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "demo.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.347Z",
+    "completed_at": "2020-05-22T14:07:10.347Z",
+    "host": {
+      "id": 96,
+      "name": "Microsite Manager UI App",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-microsite-manager.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8008,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "microsite-manager.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:10.348Z",
+    "host": {
+      "id": 109,
+      "name": "OnlyOffice Document Server",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-documentserver.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.21",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "documentserver.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:10.348Z",
+    "host": {
+      "id": 6,
+      "name": "Organisation Manager Application",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-org-manager.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 7001,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "org-manager.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:10.348Z",
+    "host": {
+      "id": 7,
+      "name": "PRIIP Cloud Web App",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-webapp.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 3004,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "webapp.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:10.348Z",
+    "host": {
+      "id": 92,
+      "name": "PRIIP Hub API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-hub-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.17",
+      "upstream_port": 8080,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "hub-api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 74,
+      "name": "PRIIP Hub Site: stageuat.gspriips.eu",
+      "downstream_protocol": "https",
+      "downstream_host": "stageuat.gspriips.eu",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6020,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "stageuat.gspriips.eu",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 118,
+      "name": "PRIIP Hub Site: staging-app-grawe-bankhaus.priiphub.com",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-grawe-bankhaus.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8017,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-grawe-bankhaus.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 117,
+      "name": "PRIIP Hub Site: staging-app-grawe-capital.priiphub.com",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-grawe-capital.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8016,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-grawe-capital.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 116,
+      "name": "PRIIP Hub Site: staging-app-grawe-hypo-burg.priiphub.com",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-grawe-hypo-burg.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8015,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-grawe-hypo-burg.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 19,
+      "name": "PRIIP Hub Site: uat-app",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 3009,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 45,
+      "name": "PRIIP Hub Site: uat-app-abc-company",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-abc-company.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6031,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-abc-company.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 84,
+      "name": "PRIIP Hub Site: uat-app-bankhaus",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-bankhaus.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6047,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-bankhaus.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 79,
+      "name": "PRIIP Hub Site: uat-app-citi",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-citi.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6041,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-citi.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 44,
+      "name": "PRIIP Hub Site: uat-app-db",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-db.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6002,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-db.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 42,
+      "name": "PRIIP Hub Site: uat-app-gs",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6020,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 43,
+      "name": "PRIIP Hub Site: uat-app-gs-fxforward",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs-fxforward.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6037,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs-fxforward.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 77,
+      "name": "PRIIP Hub Site: uat-app-gs-pwm",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs-pwm.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6038,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs-pwm.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.349Z",
+    "host": {
+      "id": 82,
+      "name": "PRIIP Hub Site: uat-app-hypo-noe",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-noe.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6045,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-noe.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.349Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 41,
+      "name": "PRIIP Hub Site: uat-app-hypo-ooe",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-ooe.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6023,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-ooe.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 40,
+      "name": "PRIIP Hub Site: uat-app-hypo-stmk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-stmk.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6022,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-stmk.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 39,
+      "name": "PRIIP Hub Site: uat-app-hypo-szbg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-szbg.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6024,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-szbg.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 83,
+      "name": "PRIIP Hub Site: uat-app-hypo-vb-company",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-vb.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6046,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-vb.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 38,
+      "name": "PRIIP Hub Site: uat-app-hypo-wb",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-wb.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6027,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-wb.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 37,
+      "name": "PRIIP Hub Site: uat-app-rbc",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbc.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6003,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbc.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 20,
+      "name": "PRIIP Hub Site: uat-app-rbi",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6001,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 35,
+      "name": "PRIIP Hub Site: uat-app-rbi-bg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-bg.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6005,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-bg.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.352Z",
+    "host": {
+      "id": 36,
+      "name": "PRIIP Hub Site: uat-app-rbi-bl",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-bl.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6004,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-bl.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.352Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 34,
+      "name": "PRIIP Hub Site: uat-app-rbi-cz",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-cz.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6008,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-cz.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 33,
+      "name": "PRIIP Hub Site: uat-app-rbi-hr",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-hr.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6007,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-hr.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 31,
+      "name": "PRIIP Hub Site: uat-app-rbi-hu",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-hu.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6009,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-hu.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 32,
+      "name": "PRIIP Hub Site: uat-app-rbi-kt",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-kt.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6010,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-kt.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 30,
+      "name": "PRIIP Hub Site: uat-app-rbi-no",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-no.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6011,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-no.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 29,
+      "name": "PRIIP Hub Site: uat-app-rbi-oo",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-oo.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6012,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-oo.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 28,
+      "name": "PRIIP Hub Site: uat-app-rbi-pl",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-pl.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6013,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-pl.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 26,
+      "name": "PRIIP Hub Site: uat-app-rbi-ro",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-ro.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6014,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-ro.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 27,
+      "name": "PRIIP Hub Site: uat-app-rbi-sk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-sk.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6021,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-sk.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 25,
+      "name": "PRIIP Hub Site: uat-app-rbi-stmk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-stmk.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6016,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-stmk.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 24,
+      "name": "PRIIP Hub Site: uat-app-rbi-szg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-szg.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6015,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-szg.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 23,
+      "name": "PRIIP Hub Site: uat-app-rbi-tr",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-tr.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6017,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-tr.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 21,
+      "name": "PRIIP Hub Site: uat-app-rbi-vbg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-vbg.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6018,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-vbg.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.353Z",
+    "host": {
+      "id": 22,
+      "name": "PRIIP Hub Site: uat-app-rbi-wb",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-wb.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6019,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-wb.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.354Z",
+    "completed_at": "2020-05-22T14:07:10.354Z",
+    "host": {
+      "id": 8,
+      "name": "PRIIP Testing UI",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-testing.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6032,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "testing.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.354Z",
+    "completed_at": "2020-05-22T14:07:10.354Z",
+    "host": {
+      "id": 91,
+      "name": "Product Store API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-store-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.16",
+      "upstream_port": 8080,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "store-api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.355Z",
+    "completed_at": "2020-05-22T14:07:10.355Z",
+    "host": {
+      "id": 10,
+      "name": "Qlab Control Panel",
+      "downstream_protocol": "http",
+      "downstream_host": "staging-qlab-admin.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 7004,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qlab-admin.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 46,
+      "name": "RegXchange Site: uat-app",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 3009,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 72,
+      "name": "RegXchange Site: uat-app-abc-company",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-abc-company.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6031,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-abc-company.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 71,
+      "name": "RegXchange Site: uat-app-db",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-db.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6002,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-db.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 70,
+      "name": "RegXchange Site: uat-app-gs",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6020,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 69,
+      "name": "RegXchange Site: uat-app-gs-fxforward",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs-fxforward.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6037,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs-fxforward.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 78,
+      "name": "RegXchange Site: uat-app-gs-pwm",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-gs-pwm.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6038,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-gs-pwm.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.358Z",
+    "host": {
+      "id": 68,
+      "name": "RegXchange Site: uat-app-hypo-ooe",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-ooe.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6023,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-ooe.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.358Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 67,
+      "name": "RegXchange Site: uat-app-hypo-stmk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-stmk.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6022,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-stmk.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 66,
+      "name": "RegXchange Site: uat-app-hypo-szbg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-szbg.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6024,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-szbg.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 65,
+      "name": "RegXchange Site: uat-app-hypo-wb",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-hypo-wb.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6027,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-hypo-wb.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 64,
+      "name": "RegXchange Site: uat-app-rbc",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbc.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6003,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbc.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 47,
+      "name": "RegXchange Site: uat-app-rbi",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6001,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 62,
+      "name": "RegXchange Site: uat-app-rbi-bg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-bg.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6005,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-bg.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 63,
+      "name": "RegXchange Site: uat-app-rbi-bl",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-bl.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6004,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-bl.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 61,
+      "name": "RegXchange Site: uat-app-rbi-cz",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-cz.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6008,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-cz.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 60,
+      "name": "RegXchange Site: uat-app-rbi-hr",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-hr.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6007,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-hr.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 58,
+      "name": "RegXchange Site: uat-app-rbi-hu",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-hu.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6009,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-hu.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 59,
+      "name": "RegXchange Site: uat-app-rbi-kt",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-kt.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6010,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-kt.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 57,
+      "name": "RegXchange Site: uat-app-rbi-no",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-no.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6011,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-no.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 56,
+      "name": "RegXchange Site: uat-app-rbi-oo",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-oo.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6012,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-oo.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 55,
+      "name": "RegXchange Site: uat-app-rbi-pl",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-pl.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6013,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-pl.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 54,
+      "name": "RegXchange Site: uat-app-rbi-ro",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-ro.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6014,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-ro.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 53,
+      "name": "RegXchange Site: uat-app-rbi-sk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-sk.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6021,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-sk.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.359Z",
+    "completed_at": "2020-05-22T14:07:10.359Z",
+    "host": {
+      "id": 52,
+      "name": "RegXchange Site: uat-app-rbi-stmk",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-stmk.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6016,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-stmk.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.360Z",
+    "host": {
+      "id": 51,
+      "name": "RegXchange Site: uat-app-rbi-szg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-szg.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6015,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-szg.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.360Z",
+    "host": {
+      "id": 50,
+      "name": "RegXchange Site: uat-app-rbi-tr",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-tr.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6017,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-tr.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.360Z",
+    "host": {
+      "id": 48,
+      "name": "RegXchange Site: uat-app-rbi-vbg",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-vbg.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6018,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-vbg.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.360Z",
+    "host": {
+      "id": 49,
+      "name": "RegXchange Site: uat-app-rbi-wb",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-app-rbi-wb.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6019,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-rbi-wb.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.360Z",
+    "host": {
+      "id": 16,
+      "name": "RegX Documentation (.com)",
+      "downstream_protocol": "https",
+      "downstream_host": "docs.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6000,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "docs.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 15,
+      "name": "RegX Documentation (.org)",
+      "downstream_protocol": "https",
+      "downstream_host": "docs.regxchange.org",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 6026,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "docs.regxchange.org",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 120,
+      "name": "Scissero API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-api.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3030,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "api.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 121,
+      "name": "Scissero APP",
+      "downstream_protocol": "https",
+      "downstream_host": "staging.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3031,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "staging.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 133,
+      "name": "Scissero APP KKR",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-kkr.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3033,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "kkr.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 131,
+      "name": "Scissero APP NRF",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-nortonrosefulbright.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3032,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "nortonrosefulbright.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.361Z",
+    "host": {
+      "id": 80,
+      "name": "Service Desk Toolkit",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-toolkit.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 6042,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "toolkit.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 14,
+      "name": "Swagger Docs",
+      "downstream_protocol": "https",
+      "downstream_host": "swagger-docs.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 3012,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "swagger-docs.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1001,
+      "name": "TPT API Services",
+      "downstream_protocol": "http",
+      "downstream_host": "dev-api.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.4",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "dev-api.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10015,
+      "name": "TPT API Services (PROD)",
+      "downstream_protocol": "https",
+      "downstream_host": "api.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.10",
+      "upstream_port": 5050,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "api.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1004,
+      "name": "TPT API Services (QA)",
+      "downstream_protocol": "http",
+      "downstream_host": "qa-api.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.7",
+      "upstream_port": 80,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qa-api.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10011,
+      "name": "TPT API Services (UAT)",
+      "downstream_protocol": "https",
+      "downstream_host": "uat-api.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.10",
+      "upstream_port": 5051,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "api.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1003,
+      "name": "TPT App - Admin",
+      "downstream_protocol": "http",
+      "downstream_host": "dev-app-admin.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.5",
+      "upstream_port": 3001,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "dev-app-admin.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10017,
+      "name": "TPT App - Admin (PROD)",
+      "downstream_protocol": "https",
+      "downstream_host": "app-admin.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.11",
+      "upstream_port": 5006,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-admin.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1005,
+      "name": "TPT App - Admin (QA)",
+      "downstream_protocol": "http",
+      "downstream_host": "qa-app-admin.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.8",
+      "upstream_port": 3001,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qa-app-admin.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10013,
+      "name": "TPT App - Admin (UAT)",
+      "downstream_protocol": "https",
+      "downstream_host": "uat-app-admin.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.11",
+      "upstream_port": 3000,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-admin.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1002,
+      "name": "TPT App - Main",
+      "downstream_protocol": "http",
+      "downstream_host": "dev-app-main.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.5",
+      "upstream_port": 3000,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "dev-app-main.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10016,
+      "name": "TPT App - Main (PROD)",
+      "downstream_protocol": "https",
+      "downstream_host": "transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.11",
+      "upstream_port": 5005,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "root.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10018,
+      "name": "TPT App - Main (PROD) www",
+      "downstream_protocol": "https",
+      "downstream_host": "www.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.11",
+      "upstream_port": 5005,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "www.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 1006,
+      "name": "TPT App - Main (QA)",
+      "downstream_protocol": "http",
+      "downstream_host": "qa-app-main.transparitrade.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.8",
+      "upstream_port": 3000,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qa-app-main.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10021,
+      "name": "TPT App - Main (QA/AAM)",
+      "downstream_protocol": "https",
+      "downstream_host": "aamlive.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.8",
+      "upstream_port": 3003,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "aamlive.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.362Z",
+    "host": {
+      "id": 10014,
+      "name": "TPT App - Main (UAT)",
+      "downstream_protocol": "https",
+      "downstream_host": "uat-app-main.transparitrade.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.1.15.11",
+      "upstream_port": 3001,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "app-main.transparitrade.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.362Z",
+    "completed_at": "2020-05-22T14:07:10.363Z",
+    "host": {
+      "id": 108,
+      "name": "Trade Forms Integration Demo",
+      "downstream_protocol": "https",
+      "downstream_host": "tradeforms-integration-demo.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8012,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "tradeforms-integration-demo.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.366Z",
+    "completed_at": "2020-05-22T14:07:10.366Z",
+    "host": {
+      "id": 18,
+      "name": "Trade Forms UI App",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-tradeforms.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6063,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "tradeforms.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.366Z",
+    "completed_at": "2020-05-22T14:07:10.366Z",
+    "host": {
+      "id": 86,
+      "name": "Upstream Test",
+      "downstream_protocol": "https",
+      "downstream_host": "upstream1.localhost",
+      "downstream_port": 8443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8081,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "root.upstream1.localhost",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 87,
+      "name": "Upstream Test - HTTP",
+      "downstream_protocol": "http",
+      "downstream_host": "upstream1.localhost",
+      "downstream_port": 8080,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8081,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "root.upstream1.localhost",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 130,
+      "name": "Workflow",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-workflow.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3039,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": true,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "workflow.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 136,
+      "name": "Workflow API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-workflow-api.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 3050,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": true,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "workflow-api.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 113,
+      "name": "WSD FileService",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-fileservice.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 3036,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "fileservice.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 112,
+      "name": "WSD FileService API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-fileservice-api.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 3035,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "fileservice-api.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 200,
+    "status_text": "No web hosts registered.",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:10.367Z",
+    "host": {
+      "id": 75,
+      "name": "WSD Website",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-www.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6040,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "www.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": []
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.345Z",
+    "completed_at": "2020-05-22T14:07:10.382Z",
+    "host": {
+      "id": 111,
+      "name": "Market Data - MDF",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-market-data-facade.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.23",
+      "upstream_port": 8080,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "market-data-facade.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.23:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.338Z",
+    "completed_at": "2020-05-22T14:07:10.383Z",
+    "host": {
+      "id": 90,
+      "name": "Cloud API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-cloud-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.15",
+      "upstream_port": 8080,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "cloud-api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.15:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.342Z",
+    "completed_at": "2020-05-22T14:07:10.384Z",
+    "host": {
+      "id": 94,
+      "name": "General Java APIs",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.19",
+      "upstream_port": 8080,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.19:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.346Z",
+    "completed_at": "2020-05-22T14:07:10.385Z",
+    "host": {
+      "id": 110,
+      "name": "Market Data - TR",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-market-data-tr.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.23",
+      "upstream_port": 8080,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "market-data-tr.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.23:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.345Z",
+    "completed_at": "2020-05-22T14:07:10.386Z",
+    "host": {
+      "id": 102,
+      "name": "Market Data - BBG",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-market-data-bbg.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.22",
+      "upstream_port": 8080,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "market-data-bbg.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.22:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.343Z",
+    "completed_at": "2020-05-22T14:07:10.387Z",
+    "host": {
+      "id": 97,
+      "name": "Identity Service - Alias",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-identity.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 8005,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "identity.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:8005",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.357Z",
+    "completed_at": "2020-05-22T14:07:10.388Z",
+    "host": {
+      "id": 115,
+      "name": "RegXchange Scheduler Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-scheduler.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 8014,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": false,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "scheduler.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.29:8014",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.347Z",
+    "completed_at": "2020-05-22T14:07:10.390Z",
+    "host": {
+      "id": 5,
+      "name": "Notifications Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-notifications.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 3008,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "notifications.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:3008",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.337Z",
+    "completed_at": "2020-05-22T14:07:10.390Z",
+    "host": {
+      "id": 98,
+      "name": "Authentication Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-authentication.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 8007,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "authentication.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:8007",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.353Z",
+    "completed_at": "2020-05-22T14:07:10.391Z",
+    "host": {
+      "id": 93,
+      "name": "PRIIP Testing API",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-testing-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.18",
+      "upstream_port": 8080,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "testing-api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.18:8080",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.355Z",
+    "completed_at": "2020-05-22T14:07:10.392Z",
+    "host": {
+      "id": 11,
+      "name": "RegXchange Core Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-fe.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 6033,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "fe.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.29:6033",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 501,
+    "status_text": "Not Implemented",
+    "requested_at": "2020-05-22T14:07:10.356Z",
+    "completed_at": "2020-05-22T14:07:10.392Z",
+    "host": {
+      "id": 105,
+      "name": "RegXchange FE Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-api.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.29",
+      "upstream_port": 8011,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "api.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.29:8011",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.342Z",
+    "completed_at": "2020-05-22T14:07:10.948Z",
+    "host": {
+      "id": 122,
+      "name": "Hub Microsites",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-hub-microsites.priiphub.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8019,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "hub-microsites.priiphub.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": [{
+      "web_node": "10.0.15.12:8019",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 0,
+      "requested_at": "2020-05-22T14:07:10.376Z",
+      "completed_at": "2020-05-22T14:07:10.945Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.376Z",
+        "completed_at": "2020-05-22T14:07:10.944Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 29904.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.376Z",
+        "completed_at": "2020-05-22T14:07:10.944Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 0.31ms.",
+        "started_at": "2020-05-22T14:07:10.376Z",
+        "completed_at": "2020-05-22T14:07:10.944Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "green",
+        "message": "All PM2 processes are active and running.",
+        "started_at": "2020-05-22T14:07:10.399Z",
+        "completed_at": "2020-05-22T14:07:10.432Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.327Z",
+    "completed_at": "2020-05-22T14:07:11.034Z",
+    "host": {
+      "id": 1,
+      "name": "Activity Log Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-activitylog.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 3007,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "activitylog.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 2,
+    "nodes": [{
+      "web_node": "10.0.15.13:3007",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 2,
+      "requested_at": "2020-05-22T14:07:10.377Z",
+      "completed_at": "2020-05-22T14:07:11.031Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.030Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 8964.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.030Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 7.50ms.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.030Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "red",
+        "message": "The following processes are not online: regxchange_frontend_core_api#0:stopped, regxchange_frontend_service_api#0:stopped, regxchange_frontend_scheduler#0:stopped",
+        "started_at": "2020-05-22T14:07:10.392Z",
+        "completed_at": "2020-05-22T14:07:10.508Z"
+      }, {
+        "name": "PMX Metrics",
+        "state": "red",
+        "message": "FetchError: request to http://localhost:9615 failed, reason: connect ECONNREFUSED 127.0.0.1:9615",
+        "started_at": "2020-05-22T14:07:10.394Z",
+        "completed_at": "2020-05-22T14:07:10.416Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.336Z",
+    "completed_at": "2020-05-22T14:07:11.247Z",
+    "host": {
+      "id": 132,
+      "name": "Activity Log Service (Scissero)",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-activitylog.scissero.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 8023,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "activitylog.scissero.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 2,
+    "nodes": [{
+      "web_node": "10.0.15.13:8023",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 2,
+      "requested_at": "2020-05-22T14:07:10.377Z",
+      "completed_at": "2020-05-22T14:07:11.246Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.245Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 8958.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.245Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 14.20ms.",
+        "started_at": "2020-05-22T14:07:10.377Z",
+        "completed_at": "2020-05-22T14:07:11.245Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "red",
+        "message": "The following processes are not online: regxchange_frontend_core_api#0:stopped, regxchange_frontend_service_api#0:stopped, regxchange_frontend_scheduler#0:stopped",
+        "started_at": "2020-05-22T14:07:10.400Z",
+        "completed_at": "2020-05-22T14:07:10.523Z"
+      }, {
+        "name": "PMX Metrics",
+        "state": "red",
+        "message": "FetchError: request to http://localhost:9615 failed, reason: connect ECONNREFUSED 127.0.0.1:9615",
+        "started_at": "2020-05-22T14:07:10.401Z",
+        "completed_at": "2020-05-22T14:07:10.406Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.363Z",
+    "completed_at": "2020-05-22T14:07:11.314Z",
+    "host": {
+      "id": 12,
+      "name": "Trade Forms Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-tradeforms-api.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 6034,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "tradeforms-api.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:6034",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 1,
+      "requested_at": "2020-05-22T14:07:10.383Z",
+      "completed_at": "2020-05-22T14:07:11.311Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.383Z",
+        "completed_at": "2020-05-22T14:07:11.311Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 8952.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.383Z",
+        "completed_at": "2020-05-22T14:07:11.311Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 14.90ms.",
+        "started_at": "2020-05-22T14:07:10.383Z",
+        "completed_at": "2020-05-22T14:07:11.311Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "red",
+        "message": "The following processes are not online: regxchange_frontend_core_api:stopped, regxchange_frontend_service_api:stopped, regxchange_frontend_scheduler:stopped",
+        "started_at": "2020-05-22T14:07:10.403Z",
+        "completed_at": "2020-05-22T14:07:10.549Z"
+      }, {
+        "name": "Can Reach Product Store?",
+        "state": "green",
+        "message": "Product Store responds to a PING request.",
+        "started_at": "2020-05-22T14:07:10.403Z",
+        "completed_at": "2020-05-22T14:07:10.430Z"
+      }, {
+        "name": "Can Reach PRIIP Cloud?",
+        "state": "green",
+        "message": "PRIIP Cloud responds to a PING request.",
+        "started_at": "2020-05-22T14:07:10.405Z",
+        "completed_at": "2020-05-22T14:07:10.431Z"
+      }, {
+        "name": "Has Cached Underlyings?",
+        "state": "green",
+        "message": "The cache has 302 underlyings cached.",
+        "started_at": "2020-05-22T14:07:10.406Z",
+        "completed_at": "2020-05-22T14:07:10.432Z"
+      }]
+    }]
+  }, {
+    "status_code": 500,
+    "status_text": "One or more nodes reported an error. Please check the node report for more information.",
+    "requested_at": "2020-05-22T14:07:10.354Z",
+    "completed_at": "2020-05-22T14:07:11.408Z",
+    "host": {
+      "id": 9,
+      "name": "Qlab Compute Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-qlab-compute.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.14",
+      "upstream_port": 3010,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "qlab-compute.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.14:8000",
+      "status_code": 501,
+      "status_text": "Not Implemented"
+    }, {
+      "web_node": "10.0.15.14:3010",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 0,
+      "requested_at": "2020-05-22T14:07:10.380Z",
+      "completed_at": "2020-05-22T14:07:11.394Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 83.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.390Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 7162.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.390Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 17.62ms.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.390Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "green",
+        "message": "All PM2 processes are active and running",
+        "started_at": "2020-05-22T14:07:10.416Z",
+        "completed_at": "2020-05-22T14:07:10.511Z"
+      }, {
+        "name": "Pricing Data Cache Invalidation",
+        "state": "green",
+        "message": "The data in the pricing data cache is NOT stale.",
+        "started_at": "2020-05-22T14:07:10.418Z",
+        "completed_at": "2020-05-22T14:07:10.481Z"
+      }, {
+        "name": "Pricing Data Queue Processing",
+        "state": "green",
+        "message": "The pricing data cache queue was last processed a few seconds ago (2020-05-22T14:07:01.583Z).",
+        "started_at": "2020-05-22T14:07:10.419Z",
+        "completed_at": "2020-05-22T14:07:10.454Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.340Z",
+    "completed_at": "2020-05-22T14:07:11.570Z",
+    "host": {
+      "id": 119,
+      "name": "CRON Runner Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-cron-runner-service.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "localhost",
+      "upstream_port": 8018,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": false,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "cron-runner-service.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:8018",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 1,
+      "requested_at": "2020-05-22T14:07:10.380Z",
+      "completed_at": "2020-05-22T14:07:11.567Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.554Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 8949.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.554Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 24.50ms.",
+        "started_at": "2020-05-22T14:07:10.380Z",
+        "completed_at": "2020-05-22T14:07:11.554Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "red",
+        "message": "The following processes are not online: regxchange_frontend_core_api:stopped, regxchange_frontend_service_api:stopped, regxchange_frontend_scheduler:stopped",
+        "started_at": "2020-05-22T14:07:10.406Z",
+        "completed_at": "2020-05-22T14:07:10.537Z"
+      }, {
+        "name": "Running Task Status",
+        "state": "green",
+        "message": "There are no failed user tasks.",
+        "started_at": "2020-05-22T14:07:11.555Z",
+        "completed_at": "2020-05-22T14:07:11.555Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.361Z",
+    "completed_at": "2020-05-22T14:07:11.614Z",
+    "host": {
+      "id": 81,
+      "name": "Static KID Service",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-statickids.priipcloud.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.13",
+      "upstream_port": 6043,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "statickids.priipcloud.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.13:6043",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 1,
+      "requested_at": "2020-05-22T14:07:10.379Z",
+      "completed_at": "2020-05-22T14:07:11.613Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 82.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.379Z",
+        "completed_at": "2020-05-22T14:07:11.613Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 8948.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.379Z",
+        "completed_at": "2020-05-22T14:07:11.613Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 18.79ms.",
+        "started_at": "2020-05-22T14:07:10.379Z",
+        "completed_at": "2020-05-22T14:07:11.613Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "red",
+        "message": "The following processes are not online: regxchange_frontend_core_api:stopped, regxchange_frontend_service_api:stopped, regxchange_frontend_scheduler:stopped",
+        "started_at": "2020-05-22T14:07:10.410Z",
+        "completed_at": "2020-05-22T14:07:10.520Z"
+      }, {
+        "name": "Unexpired KIDs",
+        "state": "green",
+        "message": "No live KIDs are past their expiration.",
+        "started_at": "2020-05-22T14:07:10.410Z",
+        "completed_at": "2020-05-22T14:07:10.520Z"
+      }, {
+        "name": "Storage Allocations",
+        "state": "green",
+        "message": "All storage accounts have adequate free space.",
+        "started_at": "2020-05-22T14:07:10.410Z",
+        "completed_at": "2020-05-22T14:07:10.520Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.339Z",
+    "completed_at": "2020-05-22T14:07:12.526Z",
+    "host": {
+      "id": 124,
+      "name": "Corporate Actions Cockpit",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-corporate-actions.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8020,
+      "auth_schema_jwt": true,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "corporate-actions.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": [{
+      "web_node": "10.0.15.32:8020",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 0,
+      "requested_at": "2020-05-22T14:07:10.384Z",
+      "completed_at": "2020-05-22T14:07:12.520Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 83.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.520Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 13657.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.520Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 0.13ms.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.520Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "green",
+        "message": "All PM2 processes are active and running.",
+        "started_at": "2020-05-22T14:07:10.484Z",
+        "completed_at": "2020-05-22T14:07:10.552Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.348Z",
+    "completed_at": "2020-05-22T14:07:12.581Z",
+    "host": {
+      "id": 125,
+      "name": "Platform Dashboard",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-platform.wallstreetdocs.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 7000,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "platform.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": [{
+      "web_node": "10.0.15.32:7000",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 0,
+      "requested_at": "2020-05-22T14:07:10.384Z",
+      "completed_at": "2020-05-22T14:07:12.575Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 83.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.575Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 13648.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.575Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 0.43ms.",
+        "started_at": "2020-05-22T14:07:10.384Z",
+        "completed_at": "2020-05-22T14:07:12.575Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "green",
+        "message": "All PM2 processes are active and running.",
+        "started_at": "2020-05-22T14:07:10.475Z",
+        "completed_at": "2020-05-22T14:07:10.553Z"
+      }]
+    }]
+  }, {
+    "status_code": 200,
+    "status_text": "OK",
+    "requested_at": "2020-05-22T14:07:10.367Z",
+    "completed_at": "2020-05-22T14:07:12.583Z",
+    "host": {
+      "id": 76,
+      "name": "WSD Website (HTTP)",
+      "downstream_protocol": "http",
+      "downstream_host": "staging-www.wallstreetdocs.com",
+      "downstream_port": 80,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 6040,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "www.wallstreetdocs.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 0,
+    "nodes": [{
+      "web_node": "10.0.15.32:6040",
+      "status_code": 200,
+      "status_text": "OK",
+      "total_alerts": 0,
+      "requested_at": "2020-05-22T14:07:10.387Z",
+      "completed_at": "2020-05-22T14:07:12.579Z",
+      "checks": [{
+        "name": "Server Free Disk Space",
+        "state": "green",
+        "message": "The server has 83.00% disk space remaining.",
+        "started_at": "2020-05-22T14:07:10.387Z",
+        "completed_at": "2020-05-22T14:07:12.578Z"
+      }, {
+        "name": "Server Free System Memory",
+        "state": "green",
+        "message": "The server has 13644.00MB system memory free.",
+        "started_at": "2020-05-22T14:07:10.387Z",
+        "completed_at": "2020-05-22T14:07:12.578Z"
+      }, {
+        "name": "Node Event Loop Latency",
+        "state": "green",
+        "message": "The node event loop delay is currently 0.48ms.",
+        "started_at": "2020-05-22T14:07:10.387Z",
+        "completed_at": "2020-05-22T14:07:12.578Z"
+      }, {
+        "name": "PM2 Process Status",
+        "state": "green",
+        "message": "All PM2 processes are active and running.",
+        "started_at": "2020-05-22T14:07:10.483Z",
+        "completed_at": "2020-05-22T14:07:10.615Z"
+      }]
+    }]
+  }, {
+    "status_code": 500,
+    "status_text": "invalid json response body at http://10.0.15.32:8009/api/reports/status reason: Unexpected token < in JSON at position 0",
+    "requested_at": "2020-05-22T14:07:10.360Z",
+    "completed_at": "2020-05-22T14:07:16.514Z",
+    "host": {
+      "id": 99,
+      "name": "RegXchange UI application",
+      "downstream_protocol": "https",
+      "downstream_host": "staging-www.regxchange.com",
+      "downstream_port": 443,
+      "upstream_protocol": "http",
+      "upstream_host": "10.0.15.32",
+      "upstream_port": 8009,
+      "auth_schema_jwt": false,
+      "auth_schema_oauth2": false,
+      "enabled": true,
+      "block_guest_access": false,
+      "options": {
+        "failover_to": 0,
+        "service_key": "www.regxchange.com",
+        "waf_enabled": false
+      }
+    },
+    "total_alerts": 1,
+    "nodes": [{
+      "web_node": "10.0.15.32:8009",
+      "status_code": 500,
+      "status_text": "invalid json response body at http://10.0.15.32:8009/api/reports/status reason: Unexpected token < in JSON at position 0"
+    }]
+  }]
+}

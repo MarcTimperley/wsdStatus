@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>WSD Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./dashboard.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="./dashboard.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="navbar-fixed header">
+      <nav>
+        <h1 class="display-3">WSD Status Dashboard</h1>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-primary">Current Alerts</li>
+          <div id="alertList"></div>
+        </ul>
+      </div>
+      
+      <div class="col-sm-6">
+        <ul class="list-group">
+      <li class="list-group-item d-flex list-group-item-primary justify-content-between align-items-center">
+        Updated
+        <span id="updated"></span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Service Alerts
+        <span class="badge badge-primary badge-pill badge-danger" id="alertCount"></span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Service Available. Status confirmed
+        <span class="badge badge-primary badge-pill badge-success" id="ok"></span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Service Available. Status Unknown
+        <span class="badge badge-primary badge-pill badge-info" id="notImplemented"></span>
+      </li>
+    </div>
+  </div>
+ <div class="row" id="summary"></div>
+      <hr />
+      <div id="statusSummary" class="card-deck"><span class="display-4">Service status is not available. This page will automatically refresh when it is available. Alternatively, please try again later or log a support call.</span></div>
+      <hr />
+   </div>
+  
+<!-- Modal for service details-->
+<div class="modal fade" id="statusDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul id="serviceList" class="list-group list-group-flush">
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
