@@ -132,7 +132,6 @@ function categoriseServices (data) {
   $('#statusDetails').on('show.bs.modal', function (event) {
     var button = $(event.relatedTarget) // Button that triggered the modal
     var modal = $(this)
-    // modal.find('ul').addClass('list-group list-group-flush')
     modal.find('.modal-title').text('Status Details: ' + button.data('title'))
     modal.find('#serviceList').html(button.data('services'))
     modal.find('li').addClass('list-group-item')
